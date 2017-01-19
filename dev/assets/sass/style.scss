@@ -1,7 +1,18 @@
 //Variables
 @import 'variables';
 
-//Base
-@import 'modules/base/containers';
-@import 'modules/base/grids';
+// Mixins
+@import "mixins/flexbox/helpers";
+@import "mixins/flexbox/grid-framework";
+@import "mixins/flexbox/bem";
+
+// Base
 @import 'modules/base/reset';
+
+// Base - Flexbox
+@import 'modules/base/flexbox/collumn';
+@import 'modules/base/flexbox/container';
+@import 'modules/base/flexbox/row';
+@import 'modules/base/flexbox/text';
+
+@include init($breakpoints, $columns);
