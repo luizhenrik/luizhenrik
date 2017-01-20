@@ -6,6 +6,9 @@
 @import "mixins/flexbox/grid-framework";
 @import "mixins/flexbox/bem";
 
+// Banner
+@import 'modules/banner/base';
+
 // Base
 @import 'modules/base/reset';
 
