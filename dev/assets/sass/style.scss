@@ -18,4 +18,15 @@
 @import 'modules/base/flexbox/row';
 @import 'modules/base/flexbox/text';
 
+//Includes - calls - Home - Extensions
+// Titles Sections
+@import 'modules/title_sections/base';
+
+// Titles Sections
+@import 'modules/tags/base';
+
+//Posts - Calls - Home
+// -- Block Cards
+@import 'modules/block_cards/base';
+
 @include init($breakpoints, $columns);
